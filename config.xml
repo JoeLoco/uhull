@@ -5,7 +5,10 @@
         <table></table>
     </general>    
     <models>
-        <user label='name'></user>
+        <user label='name'>
+            <email label=''></email>
+            <password label=''></password>
+        </user>
         <post></post>
     </models>
      
