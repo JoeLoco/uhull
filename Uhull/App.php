@@ -3,8 +3,10 @@ namespace Uhull;
 
 require_once 'Helpers/Html.php';
 require_once 'Helpers/Layout.php';
+require_once 'Helpers/Route.php';
 
 use Uhull\Helpers\Layout;
+use Uhull\Helpers\Route;
 
 class App
 {
@@ -15,7 +17,7 @@ class App
     {
 
         self::loadConfig();
-
+        Route::run();
         return Layout::render();
         
     }
