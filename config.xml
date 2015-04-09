@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <config>
-    
-    <general>
-        <table></table>
-    </general>    
+    <app>
+        <name>My firs App</name>
+    </app>    
     <models>
         <user label='name'>
-            <email label=''></email>
-            <password label=''></password>
+            <fields>
+                <email label=''></email>
+                <password label=''></password>
+            </fields>
         </user>
-        <post></post>
+        <post>
+            <title></title>
+        </post>
     </models>
      
 </config>
