@@ -1,6 +1,6 @@
 ## Uhull framework
 
-Uhull is a restfull easy to use backend
+Uhull is a restfull easy to use backend (Not finished!)
 
 ### Example:
 
