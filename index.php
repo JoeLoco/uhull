@@ -1,7 +1,7 @@
 <?php
-ini_set("display_errors", 1);
-error_reporting(E_ALL);
+require_once 'uhull\Uhull.php';
 
-require_once 'Uhull/App.php';
+$app = new Uhull();
+echo $app->run();
 
-echo Uhull\App::run();
+?>
